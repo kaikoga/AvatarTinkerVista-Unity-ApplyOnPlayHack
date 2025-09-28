@@ -1,0 +1,30 @@
+{
+    "name": "AvatarTinkerVista.Ndmf.ApplyOnPlayHack.Editor.AAO",
+    "rootNamespace": "AvatarTinkerVista.Ndmf.ApplyOnPlayHack.AAO",
+    "references": [
+        "AvatarTinkerVista.Ndmf.ApplyOnPlayHack",
+        "com.anatawa12.avatar-optimizer.api.editor"
+    ],
+    "includePlatforms": [
+       "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": ["ATIV_NDMF_REQUIRES_AOP_HACK", "ATIV_AAO"],
+    "versionDefines": [
+        {
+          "name": "nadena.dev.ndmf",
+          "expression": "(1.0.0,2.0.0)",
+          "define": "ATIV_NDMF_REQUIRES_AOP_HACK"
+        },
+        {
+          "name": "com.anatawa12.avatar-optimizer",
+          "expression": "",
+          "define": "ATIV_AAO"
+        }
+    ],
+    "noEngineReferences": false
+}
